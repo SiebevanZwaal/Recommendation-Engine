@@ -153,8 +153,8 @@ def collaborativefilter(nieuwesegments:bool):
 def main():
     '''driver code'''
     connect()
-    contentfilter()
-    collaborativefilter()
+    contentfilter(False)
+    collaborativefilter(False)
     close()
 
 
